@@ -1,0 +1,84 @@
+@font-face{
+    font-family: izvestia;
+    src: url('./fonts/Izvestija/IZVESTIA.ttf') format('truetype');
+}
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(255, 255, 0, 0.05);
+
+}
+.izvest{
+    font-family: 'izvestia',serif;
+}
+#name{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    background-color: #061633;
+    color: white;
+}
+.tvGame{
+    font-size: 40px;
+}
+.about{
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+.game{
+    font-size: 40px;
+    text-align: center;
+}
+
+.text{
+    font-size: 20px;
+    padding-left: 10px;
+    color: #434343;
+    width: 95%;
+}
+.flex{
+    width: 50%;
+}
+.flex img{
+    width: 95%;
+    height: 40%;
+    margin-top: 10px;
+}
+.flex1,.flex3{
+    align-self: flex-end;
+}
+.flex4{
+    margin-bottom: 15px;
+}
+footer{
+    padding: 40px;
+    height: 80px;
+    display: flex;
+    background-color: #061633;
+}
+
+.arrow{
+    width:40%;
+}
+.link{
+    width: 60%;
+    font-size: 50px;
+    color: white;
+}
+.link a{
+    text-decoration: none;
+    color: white;
+}
+
+#arrowL{
+    font-size: 60px;
+    color: burlywood;
+}

@@ -1,0 +1,151 @@
+body {
+  padding: 80px 0 0 0;
+  font-family: 'Comfortaa', cursive;
+  background-color: rgba(220, 194, 14, 0.09);
+}
+.header {
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  background-color: #edcc36;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  box-shadow: 0 2px 4px rgba(38, 50, 80, 0.25);
+}
+.header div input {
+  width: 100%;
+  height: 50px;
+  float: left;
+  font-size: 15px;
+  font-weight: 400;
+  text-indent: 18px;
+  background-color: #dcc20e;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  box-shadow: none;
+  border: 0;
+  outline: none;
+}
+.header div input::-webkit-input-placeholder {
+  font-family: 'Comfortaa', cursive;
+  color: black;
+}
+.header button {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  color: white;
+  background-color: black;
+  z-index: 2;
+  border: 0;
+  border-radius: 25px;
+  box-shadow: none;
+  outline: none;
+  cursor: pointer;
+}
+.header button i {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 16px;
+  left: 0;
+  font-size: 20px;
+}
+.container_header {
+  margin-top: 15px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.container {
+  width: 100%;
+  float: left;
+  padding: 15px;
+}
+ul.todo {
+  width: 96%;
+  color: white;
+  display: flex;
+  padding: 0 0 25px 0;
+  flex-direction: column;
+}
+ul.todo li.flexRow {
+  display: flex;
+  width: 100%;
+  min-height: 50px;
+  background-color: rgba(37, 37, 37, 0.67);
+  border-radius: 5px;
+  position: relative;
+  box-shadow: 0 1px 2px rgba(38, 50, 80, 0.25);
+  margin-bottom: 10px;
+  padding: 0;
+  justify-content: space-around;
+  align-items: center;
+}
+ul.todo li.flexRow:last-child {
+  margin-bottom: 0;
+}
+.task {
+  flex-grow: 148;
+  padding-left: 10px;
+}
+.button_check {
+  flex-grow: 1;
+  width: 50px;
+  height: 50px;
+}
+.button_check button {
+  width: 50px;
+  height: 50px;
+  text-decoration: none;
+  border: 0;
+}
+.button_check .isChecked {
+  border: 1px solid #debd39;
+  border-radius: 50%;
+  background-color: transparent;
+}
+.button_check .isChecked i {
+  font-size: 30px;
+}
+.button_del {
+  flex-grow: 1;
+  width: 50px;
+  height: 50px;
+}
+.button_del button {
+  width: 50px;
+  height: 50px;
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0);
+  border: 0;
+}
+.button_del .deleteBtn i {
+  font-size: 50px;
+  color: #ff8b9e;
+}
+hr {
+  width: 50%;
+}
+#completed {
+  margin-top: 50px;
+}
+#completed .isChecked {
+  background-color: #edcc36;
+}
+br + br {
+  display: none;
+}
+#arrowL {
+  position: fixed;
+  top: 800px;
+  left: 50px;
+  font-size: 60px;
+  color: burlywood;
+}

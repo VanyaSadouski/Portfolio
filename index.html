@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Портфолио</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|PT+Sans+Caption:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script defer src="app.js"></script>
+    <script src="jquery-3.3.1.min.js"></script>
+
+</head>
+<body>
+
+<header class='header' id="header">
+    <div class="header_title">Иван Садовский</div>
+    <div class="header_slogan">Front-end developer</div>
+    <div class="header_arrow">
+        <i class="fa fa-chevron-down" id="arrowD" aria-hidden="true" onclick="scrool('#portfolio')"></i>
+    </div>
+</header>
+
+<div class="portfolio" id="portfolio">
+    <div class="container">
+        <div class="title" >
+            Портфолио
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <div class="portfolio-item">
+                    <div class="portfolio_item--image"><img src="img/portfolio/dgk.png"></img></div>
+                    <div class="portfolio_item--title"><a href="dgk/index.html">Лэндинг магазина одежды</a></div>
+                    <div class="portfolio_item--text"><p>Верстка одностраничного сайта</p></div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="portfolio-item">
+                    <div class="portfolio_item--image"><img src="img/portfolio/keyboard.png"></img></div>
+                    <div class="portfolio_item--title"><a href="keybord/index.html">Виртуальная клавиатура</a></div>
+                    <div class="portfolio_item--text"><p>Виртуальная клавиатура со всеми нужными функциями</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="portfolio-item">
+                    <div class="portfolio_item--image"><img src="img/portfolio/project_portfolio.png"></img></div>
+                    <div class="portfolio_item--title"><a href="#" onclick="scrool('header')">Личный сайт портфолио</a></div>
+                    <div class="portfolio_item--text"><p>Верстка личного сайта портфолио на котором вы сейчас
+                        находитесь. </p></div>
+                </div>
+            </div>
+
+        </div>
+        <div class="row second">
+            <div class="col-4">
+                <div class="portfolio-item">
+                    <div class="portfolio_item--image"><img src="img/portfolio/todo.png"></img></div>
+                    <div class="portfolio_item--title"><a href="TODO_New/index.html">Список дел</a></div>
+                    <div class="portfolio_item--text"><p>Удобное приложение для учета своих дел. С адаптивной версткой.</p></div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="portfolio-item">
+                    <div class="portfolio_item--image"><img src="img/portfolio/menu.jpg"></img></div>
+                    <div class="portfolio_item--title"><a href="tvGame/index.html">Набор игр</a></div>
+                    <div class="portfolio_item--text"><p>Курсовой проект.</p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <p class="footer_name">Иван Садовский</p>
+                <p class="footer_copy">HTML верстка и разработка сайтов</p>
+            </div>
+            <div class="col-4">
+                <p class="footer_social">Мои профили в социальных сетях:</p>
+                <p class="footer_social_items">
+                    <a href="#"><i class="fa fa-vk" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                </p>
+            </div>
+            <div class="col-4">
+                <div><a href="#" class="button" target="_blank">Связаться Вконтакте</a></div>
+                <p class="contact"> Пишите :)</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

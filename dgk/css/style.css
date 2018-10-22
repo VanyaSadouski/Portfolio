@@ -1,0 +1,349 @@
+
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../fonts/fontawesome-webfont.eot?v=4.1.0');
+  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.1.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff?v=4.1.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.1.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.1.0#fontawesomeregular') format('svg');
+  
+}
+
+/* Primary Styles
+---------------------------------*/
+
+#arrowL{
+	position: fixed;
+	top: 800px;
+	left: 50px;
+	font-size: 60px;
+	color: burlywood;
+}
+
+h2{
+	font-size:34px;
+	color:#222222;
+	font-family: 'Montserrat', sans-serif;
+	font-weight:700;
+	letter-spacing: -1px;
+	margin:0 0 15px 0;
+	text-align:center;
+	text-transform:uppercase;
+}
+h3{
+	font-family: 'Montserrat', sans-serif;
+	color:#222222;
+	font-size:16px;
+	margin:0 0 5px 0;
+	text-transform:uppercase;
+	font-weight:400;
+}
+
+h5{
+	font-size:16px;
+	color:#888888;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:400;
+	text-align:center;
+	margin: 0 60px 0;
+}
+
+
+/* Header Styles
+---------------------------------*/
+
+.header{
+	padding: 23% 0;
+	height:100vh;
+}
+.logo{
+	width:130px;
+	margin:0 auto 35px;
+}
+
+/* Navigation
+---------------------------------*/
+.main-nav-outer{
+	padding-right: 100px;
+	border-bottom:1px solid #dddddd;
+	position:relative;
+	background:#fff;
+	width: 100%;
+    
+}
+#test{
+   top: 0; /*высота шапки в пикселях*/
+   position: fixed;
+   z-index: 10000;
+	padding-left: 100px;
+    
+}
+.main-nav{
+	text-align:center;
+	margin:10px 0 0;
+	padding-right:5%;
+	list-style:none;
+    
+}
+.main-nav li{
+	display:inline;
+	margin:0 1px;
+}
+.main-nav li a{
+	display:inline-block;
+	color:#222222;
+	text-transform:uppercase;
+	font-family: 'Montserrat', sans-serif;
+	text-decoration:none;
+	line-height:20px;
+	margin:17px 32px;
+	
+}
+
+
+.main-nav li a:hover{ 
+	text-decoration:none;
+	color: #7cc576;
+}
+
+
+.main-section{
+	padding:20px 0 0;
+}
+
+/* Catalog
+---------------------------------*/
+.Catalog-nav{
+	padding:0;
+	margin:0 0 45px 0;
+	list-style:none;
+	text-align:center;
+}
+.Catalog-nav li{
+	margin:0 10px;
+	display:inline;
+}
+.Catalog-nav li a{
+	display:inline-block;
+	padding:10px 22px;
+	font-size:12px;
+	line-height:20px;
+	color:#222222;
+	border-radius:4px;
+	text-transform:uppercase;
+	font-family: 'Montserrat', sans-serif;
+	background:#f7f7f7;
+	margin-bottom:5px;
+}
+
+
+.catalogContainer{
+	text-align: center;
+	margin:0 auto;
+	padding-left: 40px;
+	width: 100%;
+}
+
+.Catalog-box{
+	text-align:center;
+	margin-bottom:30px;
+	height:350px;
+	width:350px;
+	overflow:hidden;
+	float:left;
+	padding:0;
+}
+.Catalog-box img{
+	margin-bottom:25px;
+	transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;	
+}
+
+.Catalog-box img:hover {
+	opacity: 0.6;
+}
+
+img {
+   max-width:100%;
+}
+
+button {
+    border-color: #7cc576;
+    text-align: center;
+    width: 500px;
+    height: 100px;
+    background-color: red;
+    font-size: 80px;
+}
+
+
+
+/* Clients
+---------------------------------*/
+.client-part{
+	text-align:center;
+}
+
+.c-logo-part{
+	background:black;
+    filter: alpha(opacity=60);
+}
+.c-logo-part ul{
+	padding:0;
+	margin:0;
+	list-style:none;
+	text-align:center;
+    
+}
+.c-logo-part ul li{
+	display:inline;
+	margin:0 25px;
+}
+.c-logo-part ul a{
+	display:inline-block;
+	margin: 0 20px;
+}
+.main-section.team{
+	padding:25px 0;
+}
+
+.main-section.client-part{
+	padding:25px 0;
+
+}
+
+/* Team
+---------------------------------*/
+.team-lead-block{
+	max-width:993px;
+	margin:0 auto;
+}
+.team-lead-box{
+	width:30.66%;
+	margin-right: 3.82979%;
+	height: 300px;
+	overflow: hidden;
+	text-align: center;
+	float: left;
+}
+.team-lead-box:nth-of-type(3n+0){ margin:0;}
+.team-lead{
+	width:auto;
+	height:auto;
+	border-radius:50%;
+
+	margin:7px 7px 25px 7px;
+	
+}
+
+.team-lead img{
+	display:block;
+	border-radius:50%;
+}
+
+
+
+
+
+/* Talk Business
+---------------------------------*/
+.business-talking{
+	background:url(../img/weed.jpg) top center no-repeat;
+	background-size:cover;
+	padding:60px 0 10px;
+	text-align:center;
+}
+.business-talking h2{
+	font-family: 'Montserrat', sans-serif;
+	font-weight:700;
+	padding:0;
+	margin:20px 0 70px;
+	text-transform:uppercase;
+	font-size:42px;
+	color:#fff;
+}
+
+
+/* Contact
+---------------------------------*/
+.main-section.contact{
+	padding:90px 0 100px;
+    margin-bottom: 300px;
+    
+}
+
+
+.contact-info-box{
+	font-size:15px;
+    position: absolute
+}
+
+.contact-info-box h3 i{
+	font-style:normal;
+	font-size:18px;
+	color:#222222;
+	font-family: 'FontAwesome';
+	font-weight:normal;
+	margin-right:7px;
+}
+
+.social-link{
+	margin-top: 10px;
+	display:block;
+	overflow:hidden;
+	list-style:none;
+}
+.social-link li{
+	float:left;
+	margin-right:8px;
+}
+.social-link li a{
+	display:block;
+	width:50px;
+	height:50px;
+	text-align:center;
+	line-height:50px;
+	font-size:25px;
+	color:#fff;
+	background:#222222;
+	border-radius:50%;
+	
+}
+.social-link li a:hover, .social-link li a:focus{
+	text-decoration:none;
+}
+.twitter a:hover {
+	background: #55acee;
+}
+
+
+.vk a:hover {
+	background: #507299 ;
+}
+
+
+
+/* Footer
+---------------------------------*/
+
+.footer{
+	padding:35px 0 35px;
+}
+.footer-logo{
+	margin:15px auto 35px;
+	width: 76px;
+}
+h6{
+   text-align: center;
+
+}
+.catalogContainer{
+	max-width: 1140px;
+}
+
+
+/* Animation Timers
+---------------------------------*/
+.delay-03s { 
+	animation-delay: 0.3s; 
+	-webkit-animation-delay: 0.3s; 
+}
